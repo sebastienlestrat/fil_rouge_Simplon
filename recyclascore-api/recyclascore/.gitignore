@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore IntelliJ IDEA specific files
+.idea/sonarlint/issuestore/
+.idea/sonarlint/securityhotspotstore/
