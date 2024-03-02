@@ -17,6 +17,6 @@ public class UserMaterialRelation {
     private User user;
 
     @ManyToOne
-    @JoinColumn(name = "material_object_id")
-    private MaterialObject materialObject;
+    @JoinColumn(name = "material_id")
+    private Material material;
 }

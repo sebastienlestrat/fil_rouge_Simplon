@@ -1,5 +1,23 @@
 
 ë
 arecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/RecyclascoreApplication.java,4/0/4077a2b9be41c271aa5cd3303796333a824ffa3d
-å
-\recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/ServletInitializer.java,d/b/db238ff5621235553b9e3f009aee04fbe412ba00
+U
+%recyclascore-api/recyclascore/pom.xml,c/5/c57ce303ce3ecb6a30df106feda798fa8290d706
+è
+_recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/MaterialObject.java,0/a/0aba18e92c59bad4b2f8c6daefb5d2d7960bc801
+ï
+erecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserMaterialRelation.java,c/4/c46becd9a26248dfdb7ff94582e81ffc0ca849dc
+Ö
+Urecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/User.java,3/9/391b2876431358a1874d817bb75867d92f526ebb
+ì
+crecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/UserRepository.java,4/c/4c44c4a3c8a75dc19110674b772deb08791e373a
+ù
+mrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/MaterialObjectRepository.java,6/1/618e034f346751da5e8fafff6c0e017335d1bc32
+ù
+mrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/controller/MaterialObjectController.java,9/a/9a618f3852d742260e5eabbd21c3954aa177faa2
+ó
+grecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/MaterialObjectService.java,6/f/6f5c2a4b86654949e0c519abc0c587b6c202bb50
+]
+-recyclascore-webfront/recyclascore/.gitignore,2/8/288cf5528e6bd38915f085ab70fca5dbd226acef
+X
+(recyclascore-api/recyclascore/.gitignore,8/7/8777954aaf0376eb04ec979f568dd15cca671eeb
