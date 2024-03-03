@@ -42,5 +42,4 @@ testem.log
 Thumbs.db
 
 # Ignore IntelliJ IDEA specific files
-.idea/sonarlint/issuestore/
-.idea/sonarlint/securityhotspotstore/
+.idea/sonarlint/

@@ -5,34 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b0129df-1c41-4cad-a8df-e923e62e480f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c44c4a3c8a75dc19110674b772deb08791e373a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/618e034f346751da5e8fafff6c0e017335d1bc32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f5c2a4b86654949e0c519abc0c587b6c202bb50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a618f3852d742260e5eabbd21c3954aa177faa2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c46becd9a26248dfdb7ff94582e81ffc0ca849dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c57ce303ce3ecb6a30df106feda798fa8290d706" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0aba18e92c59bad4b2f8c6daefb5d2d7960bc801" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/391b2876431358a1874d817bb75867d92f526ebb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c44c4a3c8a75dc19110674b772deb08791e373a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/1/618e034f346751da5e8fafff6c0e017335d1bc32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6f5c2a4b86654949e0c519abc0c587b6c202bb50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9a618f3852d742260e5eabbd21c3954aa177faa2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c46becd9a26248dfdb7ff94582e81ffc0ca849dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/5/c57ce303ce3ecb6a30df106feda798fa8290d706" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db238ff5621235553b9e3f009aee04fbe412ba00" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0aba18e92c59bad4b2f8c6daefb5d2d7960bc801" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0aba18e92c59bad4b2f8c6daefb5d2d7960bc801" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/b/db238ff5621235553b9e3f009aee04fbe412ba00" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/391b2876431358a1874d817bb75867d92f526ebb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0aba18e92c59bad4b2f8c6daefb5d2d7960bc801" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/controller/MaterialObjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/controller/MaterialObjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/MaterialObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Material.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserMaterialRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserMaterialRelation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/MaterialObjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/MaterialObjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/MaterialObjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/MaterialObjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -68,21 +50,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/material-object-backend&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sebastienlestrat/Documents/Simplon/FilRouge2/recyclascore2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feat/spring-security",
+    "last_opened_file_path": "/Users/sebastienlestrat/Documents/Simplon/FilRouge2/recyclascore2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.recyclascore.backend.service" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.recyclascore.backend.service.security" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.RecyclascoreApplication">
+  <component name="RunManager" selected="Maven.api [clean,install]">
     <configuration name="RecyclascoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.recyclascore.backend.RecyclascoreApplication" />
       <module name="api" />
