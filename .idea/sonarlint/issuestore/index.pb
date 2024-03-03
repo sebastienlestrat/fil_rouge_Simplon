@@ -3,8 +3,6 @@
 arecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/RecyclascoreApplication.java,4/0/4077a2b9be41c271aa5cd3303796333a824ffa3d
 U
 %recyclascore-api/recyclascore/pom.xml,c/5/c57ce303ce3ecb6a30df106feda798fa8290d706
-è
-_recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/MaterialObject.java,0/a/0aba18e92c59bad4b2f8c6daefb5d2d7960bc801
 ï
 erecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserMaterialRelation.java,c/4/c46becd9a26248dfdb7ff94582e81ffc0ca849dc
 Ö
@@ -21,3 +19,7 @@ grecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/Ma
 -recyclascore-webfront/recyclascore/.gitignore,2/8/288cf5528e6bd38915f085ab70fca5dbd226acef
 X
 (recyclascore-api/recyclascore/.gitignore,8/7/8777954aaf0376eb04ec979f568dd15cca671eeb
+â
+Yrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Material.java,4/c/4c67ed1350d9815780828928190e70d827a121da
+ä
+Zrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/WebConfig.java,b/d/bd4480ff9ba7f36d36cab65a26c5bb09474c1de3
