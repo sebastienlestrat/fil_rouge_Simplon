@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MaterialService } from './services/material.service';
+import { MaterialService } from './services/material/material.service';
 import { MaterialObject } from './interfaces/material/material-object';
 
 
