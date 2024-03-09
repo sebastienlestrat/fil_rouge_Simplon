@@ -1,6 +1,10 @@
+<mat-toolbar color="primary" fxLayoutAlign="center center" >
+    <span  class="spacer">RecyclaScore</span>
+  </mat-toolbar>
+
 <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="20px">
     <div fxLayout="column" fxLayoutAlign="center center">
-      <h5>Veuillez-vous connecter...</h5>
+      <h4>Veuillez-vous connecter...</h4>
     </div>
   
     <div *ngIf="loginForm">
@@ -27,7 +31,7 @@
     </div>
   
     <div fxLayout="column" fxLayoutAlign="center center">
-      <button mat-raised-button color="primary" (click)="navigateToSignUpPage()">
+      <button mat-stroked-button color="primary" (click)="navigateToSignUpPage()">
         Créer un compte
       </button>
     </div>

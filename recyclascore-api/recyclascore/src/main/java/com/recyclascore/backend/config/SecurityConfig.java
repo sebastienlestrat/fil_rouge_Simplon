@@ -42,8 +42,7 @@ public class SecurityConfig {
                 (authorize) ->
                         authorize
                                 .requestMatchers( "/api/auth/**").permitAll() // acces a tous les user
-                                .requestMatchers( "/user/**").hasRole("NORMAL_USER") // acces a tous les user USER
-                                .requestMatchers( "/api/auth/hello").permitAll()
+                                .requestMatchers( "/user/**").hasRole("USER") // acces a tous les user USER
                                 .anyRequest().authenticated() // doit etre authentifie sur chaque requete
         );
 // Ajout du filtre JWT, permettant de vérifier le token et le rôle de l'utilisateur
