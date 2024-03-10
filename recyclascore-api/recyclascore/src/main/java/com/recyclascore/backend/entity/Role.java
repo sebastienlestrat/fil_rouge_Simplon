@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
+@Table(name = "role", schema = "mydb")
 public class Role {
 
     @Id
@@ -14,12 +15,12 @@ public class Role {
     private Long id;
 
     @Enumerated(EnumType.STRING)
-    private RoleEnum role;
+    private RoleEnum roleName;
 
     public Role (RoleEnum roleName) {
-        this.role = roleName;
+        this.roleName = roleName;
     }
-    public String getRole() {
-        return role.toString();
+    public String getRoleName() {
+        return roleName.toString();
     }
 }

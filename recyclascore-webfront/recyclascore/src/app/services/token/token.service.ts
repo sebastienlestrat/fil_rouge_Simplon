@@ -4,7 +4,7 @@ import { EMPTY, Observable, catchError, map } from 'rxjs';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class TokenService {
   private readonly BASE_URL = environment.url_api;
@@ -17,11 +17,11 @@ export class TokenService {
    * @param password : mot de passe
    * @returns
    */
-  login(email: string, password : string): Observable<string> {
+  login(email: string, password: string): Observable<string> {
     return this.http
       .post<{ accessToken: string }>(`${this.BASE_URL}/api/auth/signin`, {
         email,
-        password
+        password,
       })
       .pipe(
         map((tokenReponse) => {
@@ -35,14 +35,15 @@ export class TokenService {
   }
 
   signUp(
-    username : string,
-    name : string,
-    email : string, 
-    password : string
+    username: string,
+    email: string,
+    password: string
   ): Observable<string> {
     return this.http
       .post<{ accessToken: string }>(`${this.BASE_URL}/api/auth/signup`, {
-        username, name, email, password
+        username,
+        email,
+        password,
       })
       .pipe(
         map((tokenResponse) => {

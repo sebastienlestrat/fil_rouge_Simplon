@@ -4,11 +4,10 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss'],
 })
-export class NavbarComponent implements OnInit{
-  
-  constructor(private router: Router) { }
+export class NavbarComponent implements OnInit {
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
 
@@ -18,6 +17,4 @@ export class NavbarComponent implements OnInit{
     // Then navigate to the sign-in page
     this.router.navigate(['/signin']);
   }
-
-
 }
