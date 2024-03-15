@@ -53,14 +53,14 @@ public class UserSecurityService implements UserSecurityServiceInterface{
         user.setPassword(passwordEncoder.encode(signUpDto.getPassword()));
 
         //  role for the user
-        Role roles = roleRepository.findByRoleName(RoleEnum.USER).orElseThrow();
-        user.setRoles(Collections.singleton(roles));
+        Role role = roleRepository.findByRoleName(RoleEnum.USER).orElseThrow();
+        user.setRoles(Collections.singleton(role));
 
         // save user
-        userRepository.save(user);
+         userRepository.save(user);
 
         //create token
-        String token = jwtUtilities.generateToken(signUpDto.getEmail(), Collections.singletonList(roles.getRoleName()));
+        String token = jwtUtilities.generateToken(signUpDto.getEmail(), Collections.singletonList(role.getRoleName()));
         // send token inside the response
         return new ResponseEntity<>(new BearerToken(token, TOKEN_TYPE), HttpStatus.OK);
     }

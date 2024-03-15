@@ -43,6 +43,7 @@ public class SecurityConfig {
                         authorize
                                 .requestMatchers( "/api/auth/**").permitAll() // acces a tous les user
                                 .requestMatchers( "/user/**").hasRole("USER") // acces a tous les user USER
+                                .requestMatchers( "/admin/**").hasRole("ADMINISTRATOR") // acces a tous les user ADMINISTRATOR
                                 .anyRequest().authenticated() // doit etre authentifie sur chaque requete
         );
 // Ajout du filtre JWT, permettant de vérifier le token et le rôle de l'utilisateur
