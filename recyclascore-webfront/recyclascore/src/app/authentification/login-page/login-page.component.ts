@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { TokenService } from '../services/token/token.service';
+import { TokenService } from '../../services/token/token.service';
 
 @Component({
   selector: 'app-login-page',
   templateUrl: './login-page.component.html',
-  styleUrls: ['./login-page.component.scss']
+  styleUrls: ['./login-page.component.scss'],
 })
-export class LoginPageComponent implements OnInit{
+export class LoginPageComponent implements OnInit {
   loginForm!: FormGroup;
   submitted: boolean = false;
   hideFormLogin?: boolean;
@@ -18,7 +18,7 @@ export class LoginPageComponent implements OnInit{
     private formBuilder: FormBuilder,
     public tokenService: TokenService
   ) {
-       this.hideFormLogin = true;
+    this.hideFormLogin = true;
   }
 
   ngOnInit() {
@@ -44,18 +44,17 @@ export class LoginPageComponent implements OnInit{
   /**
    * Connexion with email and password
    */
-  private proceedLogin(email: string, password : string) {
+  private proceedLogin(email: string, password: string) {
     this.submitted = true;
     // call tokenService for connexion
     this.tokenService.login(email, password).subscribe({
       next: (accessToken: any) => {
         console.log('token recovered : %s', accessToken);
-        this.route.navigateByUrl('/app/material-object.component.html');
+        this.route.navigateByUrl('/material-object');
         console.info('logIn succeed');
       },
       error: (e: Error) => console.error(e),
       complete: () => {
-    
         this.submitted = false;
       },
     });
@@ -64,5 +63,4 @@ export class LoginPageComponent implements OnInit{
   public navigateToSignUpPage() {
     this.route.navigateByUrl('/signup');
   }
-
 }

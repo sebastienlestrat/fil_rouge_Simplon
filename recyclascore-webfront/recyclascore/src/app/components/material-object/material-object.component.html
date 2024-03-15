@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+
+<div>
+  <label>Sélectionnez un matériau :</label>
+  <select (change)="onMaterialSelected($event)">
+    <option
+      *ngFor="let materialObject of materialObjectList"
+      [value]="materialObject.id"
+    >
+      {{ materialObject.name }}
+    </option>
+  </select>
+</div>
+
+<div *ngIf="selectedMaterial !== undefined">
+  <p>Recyclable: {{ selectedMaterial.recyclable }}</p>
+  <p>Type de matériau : {{ selectedMaterial.materialType }}</p>
+  <p>Score de recyclabilité : {{ selectedMaterial.recyclingScore }}</p>
+  <p>Budget du recyclage : {{ selectedMaterial.recyclingBudget }}</p>
+</div>

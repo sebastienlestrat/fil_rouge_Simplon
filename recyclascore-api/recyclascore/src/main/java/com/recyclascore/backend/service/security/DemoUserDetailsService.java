@@ -28,7 +28,7 @@ public class DemoUserDetailsService  implements UserDetailsService {
         Set<GrantedAuthority> authorities = user
                 .getRoles()
                 .stream()
-                .map((role) -> new SimpleGrantedAuthority(role.getRole())).collect(Collectors.toSet());
+                .map((role) -> new SimpleGrantedAuthority(role.getRoleName())).collect(Collectors.toSet());
 
         // Renvoie l'objet UserDetails utilise par Spring Security
         return new org.springframework.security.core.userdetails.User(user.getUsername(),

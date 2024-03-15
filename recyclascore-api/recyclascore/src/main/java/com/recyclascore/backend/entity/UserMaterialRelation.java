@@ -10,13 +10,13 @@ import lombok.Data;
 @Entity
 public class UserMaterialRelation {
     @Id
-    private Long id;
+    private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "id_user")
     private User user;
 
     @ManyToOne
-    @JoinColumn(name = "material_id")
+    @JoinColumn(name = "id_material")
     private Material material;
 }

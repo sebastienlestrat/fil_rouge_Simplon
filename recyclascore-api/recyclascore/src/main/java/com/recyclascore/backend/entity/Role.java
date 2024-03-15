@@ -7,19 +7,20 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
+@Table(name = "role", schema = "mydb")
 public class Role {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     @Enumerated(EnumType.STRING)
-    private RoleEnum role;
+    private RoleEnum roleName;
 
     public Role (RoleEnum roleName) {
-        this.role = roleName;
+        this.roleName = roleName;
     }
-    public String getRole() {
-        return role.toString();
+    public String getRoleName() {
+        return roleName.toString();
     }
 }

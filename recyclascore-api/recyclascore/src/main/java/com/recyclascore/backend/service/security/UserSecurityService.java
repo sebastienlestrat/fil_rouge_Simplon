@@ -53,14 +53,14 @@ public class UserSecurityService implements UserSecurityServiceInterface{
         user.setPassword(passwordEncoder.encode(signUpDto.getPassword()));
 
         //  role for the user
-        Role roles = roleRepository.findByRole(RoleEnum.USER).get();
-        user.setRoles(Collections.singleton(roles));
+        Role role = roleRepository.findByRoleName(RoleEnum.USER).orElseThrow();
+        user.setRoles(Collections.singleton(role));
 
         // save user
-        userRepository.save(user);
+         userRepository.save(user);
 
         //create token
-        String token = jwtUtilities.generateToken(signUpDto.getEmail(), Collections.singletonList(roles.getRole()));
+        String token = jwtUtilities.generateToken(signUpDto.getEmail(), Collections.singletonList(role.getRoleName()));
         // send token inside the response
         return new ResponseEntity<>(new BearerToken(token, TOKEN_TYPE), HttpStatus.OK);
     }
@@ -74,7 +74,7 @@ public class UserSecurityService implements UserSecurityServiceInterface{
         User user = userRepository.findByEmail(authentication.getName()).orElseThrow(() -> new UsernameNotFoundException("User not found"));
         // user roles
         List<String> rolesNames = new ArrayList<>();
-        user.getRoles().forEach(r -> rolesNames.add(r.getRole()));
+        user.getRoles().forEach(r -> rolesNames.add(r.getRoleName()));
         return new BearerToken(jwtUtilities.generateToken(user.getEmail(), rolesNames), TOKEN_TYPE);
     }
 }

@@ -21,8 +21,6 @@ X
 (recyclascore-api/recyclascore/.gitignore,8/7/8777954aaf0376eb04ec979f568dd15cca671eeb
 â
 Yrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Material.java,4/c/4c67ed1350d9815780828928190e70d827a121da
-ä
-Zrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/WebConfig.java,b/d/bd4480ff9ba7f36d36cab65a26c5bb09474c1de3
 ç
 ]recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/JwtUtilities.java,c/9/c96bdcdb2e99629681c59ee8a8c01b347c5fde57
 ò
@@ -51,3 +49,5 @@ crecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository
 wrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/UserSecurityServiceInterface.java,3/a/3a0a3f50b56214724671a0de7d8d1c57976bb456
 û
 nrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/UserSecurityService.java,a/e/ae86fbd23350c66f85de06fec263c0d3d89b8044
+ë
+arecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserRoleRelation.java,1/6/1618258b4621857b7776dac8b4df34afbc406613
