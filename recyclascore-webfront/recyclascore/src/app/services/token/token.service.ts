@@ -24,8 +24,9 @@ export class TokenService {
         password,
       })
       .pipe(
-        map((tokenReponse) => {
-          return tokenReponse.accessToken;
+        map((tokenResponse) => {
+          this.setSession('accessToken', tokenResponse.accessToken);
+          return tokenResponse.accessToken;
         }),
         catchError((err, caught) => {
           console.error('login-Error :', err, caught);
@@ -35,7 +36,7 @@ export class TokenService {
   }
 
   signUp(
-    username: string, 
+    username: string,
     email: string,
     password: string
   ): Observable<string> {
@@ -47,6 +48,7 @@ export class TokenService {
       })
       .pipe(
         map((tokenResponse) => {
+          this.setSession('accessToken', tokenResponse.accessToken);
           return tokenResponse.accessToken;
         }),
         catchError((err, caught) => {
@@ -56,8 +58,18 @@ export class TokenService {
       );
   }
 
-  signOut(): void {
-    // Clear any authentication-related data
-    localStorage.removeItem('token');
+  signOut(key: string): void {
+    this.removeDataSession(key);
+  }
+
+  removeDataSession(key: string) {
+    localStorage.removeItem(key);
+  }
+
+  setSession(key: string, value: any) {
+    localStorage.setItem(key, value);
+  }
+  getSession() {
+    localStorage.getItem('accessToken');
   }
 }

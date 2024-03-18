@@ -18,11 +18,11 @@ public class DemoUserDetailsService  implements UserDetailsService {
     private final UserRepository userRepository;
 
     @Override
-    public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         // Recuper le user selon son nom ou son email sachant que chacun est UNIQUE en base
-        User user = userRepository.findByUsername(name)
+        User user = userRepository.findByEmail(email)
                 .orElseThrow(() ->
-                        new UsernameNotFoundException("Utilisateur inconnu : " + name));
+                        new UsernameNotFoundException("Utilisateur inconnu : " + email));
 
         // Recupere les roles du user
         Set<GrantedAuthority> authorities = user
@@ -31,7 +31,7 @@ public class DemoUserDetailsService  implements UserDetailsService {
                 .map((role) -> new SimpleGrantedAuthority(role.getRoleName())).collect(Collectors.toSet());
 
         // Renvoie l'objet UserDetails utilise par Spring Security
-        return new org.springframework.security.core.userdetails.User(user.getUsername(),
+        return new org.springframework.security.core.userdetails.User(user.getEmail(),
                 user.getPassword(),
                 authorities);
     }

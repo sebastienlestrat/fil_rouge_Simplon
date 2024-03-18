@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b0129df-1c41-4cad-a8df-e923e62e480f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd4480ff9ba7f36d36cab65a26c5bb09474c1de3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/d/bd4480ff9ba7f36d36cab65a26c5bb09474c1de3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/JwtUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/JwtUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/controller/MaterialObjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/controller/MaterialObjectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Material.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserMaterialRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserMaterialRelation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/UserSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/UserSecurityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/dto/BearerToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/dto/BearerToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/MaterialObjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/MaterialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/MaterialObjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/MaterialObjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/DemoUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/DemoUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/login-page/login-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/login-page/login-page.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/login-page/login-page.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/login-page/login-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/signin-page/signin-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/signin-page/signin-page.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/signin-page/signin-page.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/authentification/signin-page/signin-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/components/material-object/material-object.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/components/material-object/material-object.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/services/token/token.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/services/token/token.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,15 +67,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/signIn-page&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sebastienlestrat/Documents/Simplon/FilRouge2/recyclascore2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "fix/material-list",
+    "last_opened_file_path": "/Users/sebastienlestrat/Documents/Simplon/FilRouge2/recyclascore2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.recyclascore.backend.service" />
@@ -145,6 +152,11 @@
           <url>file://$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/UserSecurityService.java</url>
           <line>56</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/controller/MaterialObjectController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

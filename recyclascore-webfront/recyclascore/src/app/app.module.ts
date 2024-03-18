@@ -6,16 +6,17 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCommonModule } from '@angular/material/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { LoginPageComponent } from './authentification/login-page/login-page.component';
+import { LoginPageComponent } from './components/authentification/login-page/login-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MaterialObjectComponent } from './components/material-object/material-object.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { SigninPageComponent } from './authentification/signin-page/signin-page.component';
+import { SigninPageComponent } from './components/authentification/signin-page/signin-page.component';
+import { AuthInterceptor } from './interceptors/auth.interceptor';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,9 @@ import { SigninPageComponent } from './authentification/signin-page/signin-page.
     MatCommonModule,
     BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

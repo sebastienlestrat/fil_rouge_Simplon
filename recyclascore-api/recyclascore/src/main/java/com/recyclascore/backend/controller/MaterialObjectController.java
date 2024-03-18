@@ -1,7 +1,9 @@
 package com.recyclascore.backend.controller;
 
 import com.recyclascore.backend.entity.Material;
+import com.recyclascore.backend.entity.dto.MaterialDto;
 import com.recyclascore.backend.service.MaterialObjectService;
+import jakarta.persistence.criteria.CriteriaBuilder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

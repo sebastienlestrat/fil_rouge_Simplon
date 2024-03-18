@@ -10,11 +10,12 @@ import { MaterialService } from '../../services/material/material.service';
 export class MaterialObjectComponent implements OnInit {
   materialObjectList: MaterialObject[] = [];
   selectedMaterial: MaterialObject | undefined;
-
+  accessToken: string | null = '';
   constructor(private materialService: MaterialService) {}
 
   ngOnInit(): void {
     this.getMaterialList();
+    this.accessToken = sessionStorage.getItem('accessToken');
     // this.getMaterial(this.selectedMaterial)
   }
 
