@@ -59,17 +59,17 @@ export class TokenService {
   }
 
   signOut(): void {
-    this.removeDataSession();
+    return this.removeDataSession();
   }
 
-  removeDataSession() {
-    localStorage.clear();
+  private removeDataSession() {
+    return localStorage.clear();
   }
 
-  setSession(key: string, value: any) {
-    localStorage.setItem(key, value);
+  private setSession(key: string, value: any) {
+    return localStorage.setItem(key, value);
   }
-  getSession() {
-    localStorage.getItem('accessToken');
+  public getSession() {
+    return localStorage.getItem('accessToken');
   }
 }

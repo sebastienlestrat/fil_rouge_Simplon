@@ -12,7 +12,7 @@ npm-debug.log
 yarn-error.log
 
 # IDEs and editors
-.idea/
+.idea/*
 .project
 .classpath
 .c9/
@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 # Ignore IntelliJ IDEA specific files
-.idea/sonarlint/
+.idea/*
