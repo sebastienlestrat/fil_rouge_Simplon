@@ -10,8 +10,6 @@ Urecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/Use
 ì
 crecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/UserRepository.java,4/c/4c44c4a3c8a75dc19110674b772deb08791e373a
 ù
-mrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/MaterialObjectRepository.java,6/1/618e034f346751da5e8fafff6c0e017335d1bc32
-ù
 mrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/controller/MaterialObjectController.java,9/a/9a618f3852d742260e5eabbd21c3954aa177faa2
 ó
 grecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/MaterialObjectService.java,6/f/6f5c2a4b86654949e0c519abc0c587b6c202bb50
@@ -51,3 +49,7 @@ wrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/se
 nrecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/service/security/UserSecurityService.java,a/e/ae86fbd23350c66f85de06fec263c0d3d89b8044
 ë
 arecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserRoleRelation.java,1/6/1618258b4621857b7776dac8b4df34afbc406613
+ê
+`recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/dto/MaterialDto.java,0/3/03300f2a799dbb639bc67de6d8ea6b699ba8e584
+ó
+grecyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/repository/MaterialRepository.java,5/9/59dae450777ab61df55feae572d224077b17ea73

@@ -58,12 +58,12 @@ export class TokenService {
       );
   }
 
-  signOut(key: string): void {
-    this.removeDataSession(key);
+  signOut(): void {
+    this.removeDataSession();
   }
 
-  removeDataSession(key: string) {
-    localStorage.removeItem(key);
+  removeDataSession() {
+    localStorage.clear();
   }
 
   setSession(key: string, value: any) {

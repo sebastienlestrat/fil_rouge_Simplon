@@ -29,7 +29,7 @@ public class JwtUtilities {
     public Claims extractAllClaims(String token) {
         return Jwts.parser()
                 .setSigningKey(secret)
-                .parseClaimsJwt(token)
+                .parseClaimsJws(token)
                 .getBody();
     }
     public <T> T extractClaim(String token, Function<Claims, T> claimsResolver) {
@@ -57,7 +57,7 @@ public class JwtUtilities {
 
     public boolean validateToken(String token) {
         try {
-            Jwts.parser().setSigningKey(secret).parseClaimsJwt(token);
+            Jwts.parser().setSigningKey(secret).parseClaimsJws(token);
             return true;
         }catch (SecurityException ex) {
             log.info("Invalid JWT signature");
@@ -81,27 +81,6 @@ public class JwtUtilities {
         final String bearerToken = httpServletRequest.getHeader("Authorization");
         if(StringUtils.hasText(bearerToken) && bearerToken.startsWith("Bearer "))
         {return bearerToken.substring(7); } // The part after "Bearer "
-        return null;
-    }
-
-    private String getJwtFromRequest(HttpServletRequest request) {
-        String bearerToken = request.getHeader("Authorization");
-
-        if (StringUtils.hasText(bearerToken) && bearerToken.startsWith("Bearer ")) {
-            return bearerToken.substring(7);
-        } else {
-            Cookie[] cookies = request.getCookies();
-            if (cookies != null) {
-                for (Cookie cookie : cookies) {
-                    if ("Authorization".equals(cookie.getName())) {
-                        String token = cookie.getValue();
-                        if (StringUtils.hasText(token) && token.startsWith("Bearer")) { // Assuming the token is URL encoded and has "Bearer+" prefix
-                            return URLDecoder.decode(token.substring(6), StandardCharsets.UTF_8); // Decode and remove "Bearer+" prefix
-                        }
-                    }
-                }
-            }
-        }
         return null;
     }
 }
