@@ -42,6 +42,7 @@ public class SecurityConfig {
                 (authorize) ->
                         authorize
                                 .requestMatchers( "/api/auth/**").permitAll() // acces a tous les user
+                        /*        .requestMatchers( "/material/**").permitAll() // acces a tous les material*/
                                 .requestMatchers( "/user/**").hasRole("USER") // acces a tous les user USER
                                 .requestMatchers( "/admin/**").hasRole("ADMINISTRATOR") // acces a tous les user ADMINISTRATOR
                                 .anyRequest().authenticated() // doit etre authentifie sur chaque requete

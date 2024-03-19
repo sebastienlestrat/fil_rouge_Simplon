@@ -10,7 +10,6 @@ import { MaterialService } from '../../services/material/material.service';
 export class MaterialObjectComponent implements OnInit {
   materialObjectList: MaterialObject[] = [];
   selectedMaterial: MaterialObject | undefined;
-
   constructor(private materialService: MaterialService) {}
 
   ngOnInit(): void {

@@ -1,7 +1,7 @@
 package com.recyclascore.backend.service;
 
 import com.recyclascore.backend.entity.Material;
-import com.recyclascore.backend.repository.MaterialObjectRepository;
+import com.recyclascore.backend.repository.MaterialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,13 +11,13 @@ import java.util.List;
 public class MaterialObjectService {
 
     @Autowired
-    MaterialObjectRepository materialObjectRepository;
+    MaterialRepository materialRepository;
 
     public List<Material> findAllMaterials() {
-        return materialObjectRepository.findAll();
+        return materialRepository.findAll();
     }
 
     public Material getMaterial(Long id) {
-        return materialObjectRepository.findById(id).orElseThrow();
+        return materialRepository.findById(id).orElseThrow();
     }
 }

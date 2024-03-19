@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginPageComponent } from './authentification/login-page/login-page.component';
-import { SigninPageComponent } from './authentification/signin-page/signin-page.component';
+import { LoginPageComponent } from './components/authentification/login-page/login-page.component';
+import { SigninPageComponent } from './components/authentification/signin-page/signin-page.component';
 import { MaterialObjectComponent } from './components/material-object/material-object.component';
 
 const routes: Routes = [

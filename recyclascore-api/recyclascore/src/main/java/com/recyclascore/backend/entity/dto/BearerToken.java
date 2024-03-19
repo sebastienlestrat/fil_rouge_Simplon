@@ -4,11 +4,11 @@ import lombok.Data;
 
 @Data
 public class BearerToken {
-    private String accesToken;
+    private String accessToken;
     private String tokenType;
 
-    public BearerToken(String accesToken, String tokenType) {
-        this.accesToken = accesToken;
+    public BearerToken(String accessToken, String tokenType) {
+        this.accessToken = accessToken;
         this.tokenType = tokenType;
     }
 }
