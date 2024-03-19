@@ -45,6 +45,10 @@ public class UserSecurityService implements UserSecurityServiceInterface{
     @Override
     @Transactional
     public ResponseEntity<?> register(SignUpDto signUpDto) {
+        // check if email already exist  in DB
+        if(userRepository.existsByEmail(signUpDto.getEmail())) {
+            return new ResponseEntity<>("Email déjà pris!", HttpStatus.BAD_REQUEST);
+        }
 
         // create user in DB
         User user = new User();
