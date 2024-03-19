@@ -39,16 +39,15 @@ export class MaterialObjectComponent implements OnInit {
     );
   }
 
-  onMaterialSelected(event: any) {
-    const selectedMaterialId = event.target.value;
+  onMaterialSelected(selectedMaterialId: number) {
     // Find the selected material from the list
     this.selectedMaterial = this.materialObjectList.find(
-      (material) => material.id === parseInt(selectedMaterialId)
+      (material) => material.id === selectedMaterialId
     );
     if (this.selectedMaterial?.recyclable === true) {
       ('vrai');
     } else {
-      ('false');
+      ('faux');
     }
   }
 }

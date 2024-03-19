@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TokenService } from 'src/app/services/token/token.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,14 +8,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  constructor(private router: Router) {}
+  constructor(private router: Router, private tokenService: TokenService) {}
 
   ngOnInit(): void {}
 
-  logout() {
-    // Perform logout action
-    // For example, clear user session or token
-    // Then navigate to the sign-in page
-    this.router.navigate(['/signin']);
+  public logout() {
+    this.tokenService.signOut();
+    return this.router.navigate(['/login']);
+  }
+  public homePage(): void {
+    this.router.navigate(['/material']);
   }
 }

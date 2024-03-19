@@ -58,7 +58,7 @@ export class TokenService {
       );
   }
 
-  signOut(): void {
+  public signOut(): void {
     return this.removeDataSession();
   }
 

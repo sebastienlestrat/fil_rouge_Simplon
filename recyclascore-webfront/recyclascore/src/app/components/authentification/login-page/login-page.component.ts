@@ -50,7 +50,7 @@ export class LoginPageComponent implements OnInit {
     this.tokenService.login(email, password).subscribe({
       next: (accessToken: any) => {
         console.log('token recovered : %s', accessToken);
-        this.route.navigateByUrl('/material-object');
+        this.route.navigateByUrl('/material');
         console.info('logIn succeed');
       },
       error: (e: Error) => console.error(e),
