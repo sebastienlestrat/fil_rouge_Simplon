@@ -50,7 +50,7 @@ export class SigninPageComponent implements OnInit {
     this.tokenService.signUp(username, email, password).subscribe({
       next: (accessToken: any) => {
         console.log('token recovered : %s', accessToken);
-        this.route.navigateByUrl('/material-object');
+        this.route.navigateByUrl('/material');
         console.info('signUp succeed');
       },
       error: (err: Error) => console.error(err),
