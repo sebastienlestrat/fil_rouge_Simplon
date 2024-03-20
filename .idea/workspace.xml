@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b0129df-1c41-4cad-a8df-e923e62e480f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/components/material-object/material-object.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/recyclascore-webfront/recyclascore/src/app/components/material-object/material-object.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recyclascore-api/recyclascore/src/main/java/com/recyclascore/backend/entity/UserMaterialRelation.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feat/material-page-template",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/sebastienlestrat/Documents/Simplon/FilRouge2/recyclascore2"
   }
 }]]></component>
